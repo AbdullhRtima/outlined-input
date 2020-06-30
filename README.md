@@ -17,7 +17,7 @@ import OutlineInput from '@react-native-outline-input';
 ## Usage
 
 ```tsx
-import{ OutlinedInput } from '@react-native-outlined-input'
+import OutlinedInput from '@react-native-outlined-input'
 
 const App =()=> {
 
