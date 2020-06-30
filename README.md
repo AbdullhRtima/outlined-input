@@ -1,31 +1,17 @@
-# react-native-outlined-input
+# react-native-outline-input
 
-> react native custom outlined input
+## Getting started
 
-[![NPM](https://img.shields.io/npm/v/react-native-outlined-input.svg)](https://www.npmjs.com/package/react-native-outlined-input) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+`$ npm install react-native-outline-input --save`
 
-## Install
+### Mostly automatic installation
 
-```bash
-npm install --save react-native-outlined-input
-```
+`$ react-native link react-native-outline-input`
 
 ## Usage
+```javascript
+import OutlineInput from 'react-native-outline-input';
 
-```tsx
-import React, { Component } from 'react'
-
-import{ OutlinedInput } from 'react-native-outlined-input'
-import 'react-native-outlined-input/dist/index.css'
-
-const App =()=> {
-    // react-native-outlined-input
-    
-    return <OutlinedInput />
-
-}
+// TODO: What to do with the module?
+OutlineInput;
 ```
-
-## License
-
-MIT © [AbdullhRtima](https://github.com/AbdullhRtima)
