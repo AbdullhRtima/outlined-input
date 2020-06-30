@@ -1,5 +1,8 @@
-import { Platform } from "react-native";
-import { isRTL } from "../i18n";
+import ReactNative , { Platform } from "react-native";
+
+export function isRTL() {
+    return ReactNative.I18nManager.isRTL;
+};
 
 /**
  * all fonts in application live here
