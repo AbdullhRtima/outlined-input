@@ -29,7 +29,7 @@ import {
   Padding,
   interpolatePlaceholder,
 } from './helpers';
-import { typography } from '../../theme';
+import { typography } from '../theme';
 
 const OUTLINE_MINIMIZED_LABEL_Y_OFFSET = -6;
 const LABEL_PADDING_TOP = 8;
