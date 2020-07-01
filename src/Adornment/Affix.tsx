@@ -9,8 +9,8 @@ import {
   Animated,
 } from 'react-native';
 
-import { withTheme } from '../../../core/theming';
-import { Theme } from '../../../types';
+import { withTheme } from '../theming';
+import { Theme } from '../types';
 import { AdornmentSide } from './enums';
 
 const AFFIX_OFFSET = 12;

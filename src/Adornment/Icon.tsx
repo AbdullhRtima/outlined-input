@@ -1,8 +1,8 @@
 import React from 'react';
 import { View, StyleSheet, StyleProp, ViewStyle } from 'react-native';
 
-import IconButton from '../../IconButton';
-import { $Omit, Theme } from '../../../../src/types';
+import IconButton from '../IconButton';
+import { $Omit, Theme } from '../types';
 
 type Props = $Omit<
   React.ComponentProps<typeof IconButton>,
