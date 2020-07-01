@@ -100,3 +100,4 @@ import {
     light: string
     thin: string
   };
+  export type $Omit<T, K> = Pick<T, Exclude<keyof T, K>>;
